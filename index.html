@@ -3,22 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://fonts.cdnfonts.com/css/anurati" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class="w-screen bg-green-700">
-    <div class="flex justify-center flex-col h-screen w-screen border-8 border-red-500">
-      <div id="box" class="border-8 border-blue-700 flex flex-col">
-        <div id="title" class="border border-green-600 p-2 flex justify-center">
-          <h1 class="text-3xl">
+  <body class="w-screen">
+    <div class="flex justify-center flex-col h-screen w-screen ">
+      <div id="box" class="flex flex-col px-20">
+        <div id="title" class="p-2 flex justify-center">
+          <h1 class="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
             To Do List
           </h1>
         </div>
-        <div id="rowAddTask" class="px-2 border-8 border-pink-700 flex justify-center">
-          <input type="text" name="addTask" id="boxAddTask" class="bg-red-500 w-1/2 border border-black">
-          <button class="pl-5">+</button>
+        <div id="rowAddTask" class="px-2 flex justify-center">
+          <input type="text" name="addTask" id="boxAddTask" class="w-1/2 text-xl">
+          <button class="" id="addBtn">+</button>
         </div>
-        <div id="taskList"></div>
+        <div id="error" class=""></div>
+        <div id="taskList" class=""></div>
       </div>
     </div>
     <script type="module" src="./src/main.js"></script>
