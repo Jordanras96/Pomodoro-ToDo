@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class="h-screen w-screen">
-    <div class="flex justify-center items-center flex-col h-screen  border-8 border-red-500">
-      <div id="box" class="border-8 flex flex-col">
+  <body class="w-screen bg-green-700">
+    <div class="flex justify-center flex-col h-screen w-screen border-8 border-red-500">
+      <div id="box" class="border-8 border-blue-700 flex flex-col">
         <div id="title" class="border border-green-600 p-2 flex justify-center">
-          <p className="">
+          <h1 class="text-3xl">
             To Do List
-          </p>
+          </h1>
         </div>
-        <div id="rowAddTask" class="px-2">
+        <div id="rowAddTask" class="px-2 border-8 border-pink-700 flex justify-center">
           <input type="text" name="addTask" id="boxAddTask" class="bg-red-500 w-1/2 border border-black">
           <button class="pl-5">+</button>
         </div>
         <div id="taskList"></div>
       </div>
     </div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>

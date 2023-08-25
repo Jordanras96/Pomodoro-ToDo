@@ -15,5 +15,8 @@
     "vite": "^3.2.4"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@twind/intellisense": "^1.1.3"
+  }
 }
