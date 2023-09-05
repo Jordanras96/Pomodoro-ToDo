@@ -1,3 +1,1 @@
-export function timer() {
-    
-}
+export function timer() {}
